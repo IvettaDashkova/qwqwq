@@ -1,4 +1,5 @@
 export const App = () => {
+  console.log('process.env', process.env.REACT_APP_BASE_URL_API);
   return (
     <div
       style={{
